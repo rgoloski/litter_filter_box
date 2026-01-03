@@ -8,6 +8,8 @@
 #ifndef INC_FAN_CONTROL_H_
 #define INC_FAN_CONTROL_H_
 
+#include "tim.h"
 
+void run_duty_control(void);
 
 #endif /* INC_FAN_CONTROL_H_ */
